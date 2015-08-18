@@ -36,8 +36,8 @@ h1{
 }
 body {
 	line-height: 1;
-  color: #009966;
-  background-color: #F5F5DC;
+  color: #4682B4;
+  background-color: #FAEBD7;
   text-align: center;
 }
 ol, ul {
@@ -45,6 +45,11 @@ ol, ul {
 }
 p{
   margin: 25px;
+  color: #FAEBD7;
+  background-color: #4682B4;
+  border: solid #4682B4 5px;
+  border-radius: 30px;
+  padding: 20px;
 }
 li{
   padding: 10px;
@@ -67,4 +72,8 @@ img {
   border: solid 0px;
   border-radius: 50px;
   margin-top: 30px;
+}
+div {
+  font-size: 20px;
+  margin-top: 5px;
 }
