@@ -18,13 +18,18 @@
   </nav>
   <div id="home">
     <h1 id="greeting">Hello, I'm Chris</h1>
-    <h2 id="explanation">I make awesome websites with really cool stuff like ReactJS, Ruby, and more...</h2>
+    <h2 id="explanation">I make awesome websites with really cool stuff like ReactJS, Ruby, and more</h2>
   </div>
   <div id="about">
     <h1>About</h1>
-    <p id="about-me">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+    <div id="about-block">
+      <p class="about-me">
+        Welcome to my personal site! My name is Christopher Smith and I'm a New York City based Web Developer. I code primarily in JavaScript and Ruby, however, I'm eager to learn more! I'm a driven individual with the ability to make an impact and learn new skills quickly.
+      </p>
+      <p class="about-me">
+        I am a huge sports fan (a lifelong Jets fan, it's been tough), absolutely love the Harry Potter books, and can't wait to see the new Star Wars and Hunger Games movies. I&nbsp;refuse to believe we've seen the last of Jon Snow, and I'm a big fan of music - some of my favorite bands/artists are Dave Matthews Band, Billy Joel and Nirvana.
+      </p>
+    </div>
   </div>
   <div id="portfolio">
     <h1>Portfolio</h1>
@@ -47,7 +52,7 @@
                   The idea came to me after I thought of an issue I had that I'd love to solve. After moving back to the New York City area, I had a hard time finding flavors for my vape that I really liked in the past, so I wanted to create a way to find a consensus amongst vape enthusiasts of their favorite flavors. What I came up with was VapeStack, a social network for vapers. If this were to ever go live, before I could go and market this to stores to help them identify wants amongst their client-base using data analytics, I would need to develop something that people would actually use, so I started by building the customer platform. I am probably most proud of things that I've learned through the process. I learned to conditionally render React components and how to incorporate React into a Ruby on Rails application more cohesively than I had in the past. I also learned more about making a site responsive; in previous projects I spent more time on functionality, but I wanted to make this look good across multiple devices. I would like to incorporate more ajax requests to get data, at this point the application only uses it to submit, or post, data through forms and, in one case, buttons.<br/><br/>
                   Feel free to create a log-in and browse the site! You can search for people and see how your home screen populates their statuses and posts after you've added them.<br/>Names to search: Christopher Smith, Jaden Carver, and Dennis Liaw.
                   <br/><br/>
-                  <a href="vapestack.herokuapp.com" class="portfolio-link">Click here to launch VapeStack!</a>
+                  <a href="http://vapestack.herokuapp.com" class="portfolio-link">Click here to launch VapeStack!</a>
                 </p>
               </div>
               <div class="modal-footer">
@@ -59,7 +64,7 @@
       </div>
       <div class="portfolio-piece">
         <h3 class="portfolio-title">Game of Thrones Wiki</h3>
-        <img src="./cover.jpg" class="portfolio-image"/>
+        <img src="./gotwiki.png" class="portfolio-image"/>
         <p class="portfolio-description">Wiki for fans of the show to post anything and everything Game of Thrones</p>
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#GoTModal">More Info</button>
         <div id="GoTModal" class="modal fade" role="dialog">
@@ -70,10 +75,10 @@
                 <h4 class="modal-title">Game of Thrones Wiki</h4>
               </div>
               <div class="modal-body">
-                <div class="technology">Technologies: HTML, Embedded Ruby (ERB) Templates, CSS | Ruby on Rails, PostgreSQL</div><hr/>
+                <div class="technology">Technologies: HTML, Embedded Ruby (ERB) Templates, Sass, Bootstrap | Ruby on Rails, PostgreSQL</div><hr/>
                 <p class="more-info">
                   An online community for fans of Game of Thrones! Anybody can read posts, but you must be signed in to create or edit a post.<br/><br/>
-                  <a href="smithophergotwiki.herokuapp.com/" class="portfolio-link">Click here to check out Game of Thrones Wiki!</a>
+                  <a href="http://smithophergotwiki.herokuapp.com" class="portfolio-link">Click here to check out Game of Thrones Wiki!</a>
                 </p>
               </div>
               <div class="modal-footer">
@@ -85,7 +90,7 @@
       </div>
       <div class="portfolio-piece">
         <h3 class="portfolio-title">Tic Tac Toe</h3>
-        <img src="./cover.jpg" class="portfolio-image"/>
+        <img src="./ttt.png" class="portfolio-image"/>
         <p class="portfolio-description">Web application of the classic game, Tic Tac Toe</p><br/>
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#TTTModal">More Info</button>
         <div id="TTTModal" class="modal fade" role="dialog">
@@ -114,7 +119,7 @@
   </div>
   <div id="contact">
     <h1>Contact</h1>
-    <p id="contact-text">I am currently looking for full-time employment in the Greater New York City area.<br/>If you like my work, feel free to reach out to me. I'd love to hear from you!</p>
+    <p id="contact-text">I am currently seeking full-time employment in the Greater New York City area.<br/>If you like my work, feel free to reach out to me. I'd love to hear from you!</p>
     <p id="email">smithopher87@gmail.com</p>
     <div id="contact-images">
       <a href="http://linkedin.com/in/christophersmithcodes" class="logo"><img src="/linkedin.png"/></a>
