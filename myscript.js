@@ -1,5 +1,6 @@
 $(function(){
 
+
   $("#homeLink").on('click', function(event) {
     event.preventDefault();
     $(window).scrollTo(0, 700);
