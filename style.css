@@ -63,7 +63,7 @@ nav, .portfolio-image {
 #home {
 	margin-top: 0;
 	padding-top: 250px;
-	height: 800px;
+	height: 1200px;
 	background-image: url(/cover.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -81,7 +81,7 @@ nav, .portfolio-image {
 }
 
 #about {
-	height: 570px;
+	height: 700px;
 	margin-top: 70px;
 	background-image: url(/chris.jpg);
 	background-repeat: no-repeat;
@@ -176,7 +176,7 @@ nav, .portfolio-image {
 #contact {
 	margin-top: 700px;
 	padding-top: 2px;
-	height: 600px;
+	height: 1000px;
 	background-color: #50A6C2;
 	color: #000000;
 }

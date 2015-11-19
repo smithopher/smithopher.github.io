@@ -10,21 +10,21 @@ $(function(){
 
   $("#aboutLink").on('click', function(event) {
     event.preventDefault();
-    $(window).scrollTo(740, 700);
+    $(window).scrollTo(1140, 700);
     $("#aboutLink").css('text-decoration', 'none');
     $("#aboutLink").css('color', '#000000');
   });
 
   $("#portfolioLink").on('click', function(event) {
     event.preventDefault();
-    $(window).scrollTo(1540, 700);
+    $(window).scrollTo(2070, 700);
     $("#portfolioLink").css('text-decoration', 'none');
     $("#portfolioLink").css('color', '#000000');
   });
 
   $("#contactLink").on('click', function(event) {
     event.preventDefault();
-    $(window).scrollTo(2340, 700);
+    $(window).scrollTo(2840, 700);
     $("#contactLink").css('text-decoration', 'none');
     $("#contactLink").css('color', '#000000');
   });
