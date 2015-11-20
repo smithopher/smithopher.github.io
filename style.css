@@ -63,8 +63,8 @@ nav, .portfolio-image {
 #home {
 	margin-top: 0;
 	padding-top: 250px;
-	height: 1200px;
-	background-image: url(/cover.jpg);
+	height: 1100px;
+	background-image: url(/northern_lights.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
@@ -81,7 +81,7 @@ nav, .portfolio-image {
 }
 
 #about {
-	height: 700px;
+	height: 500px;
 	margin-top: 70px;
 	background-image: url(/chris.jpg);
 	background-repeat: no-repeat;
@@ -103,7 +103,7 @@ nav, .portfolio-image {
 #portfolio {
 	background-color: #FFFFFF;
 	color: #000000;
-	margin-top: 230px;
+	margin-top: 430px;
 }
 
 #portfolio-spread {
