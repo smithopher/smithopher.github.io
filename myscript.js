@@ -24,7 +24,7 @@ $(function(){
 
   $("#contactLink").on('click', function(event) {
     event.preventDefault();
-    $(window).scrollTo(2740, 700);
+    $(window).scrollTo(3040, 700);
     $("#contactLink").css('text-decoration', 'none');
     $("#contactLink").css('color', '#000000');
   });
