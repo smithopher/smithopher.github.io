@@ -8,6 +8,12 @@ $(function(){
     $("#homeLink").css('color', '#000000');
   });
 
+  $("#home-button").on('click', function(event) {
+    event.preventDefault();
+    $(window).scrollTo(1040, 700);
+  });
+
+
   $("#aboutLink").on('click', function(event) {
     event.preventDefault();
     $(window).scrollTo(1040, 700);

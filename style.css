@@ -80,6 +80,15 @@ nav, .portfolio-image {
 	font-weight: 100;
 }
 
+#home-button {
+	border: 1px solid #FFFFFF;
+	border-radius: 0;
+	background: rgba(0,0,0,0.0);
+	width: 100px;
+	height: 40px;
+	margin-top: 40px;
+}
+
 #about {
 	height: 500px;
 	margin-top: 70px;
