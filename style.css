@@ -3,7 +3,7 @@
 
 body {
 	width: 100%;
-	font-family: Lato, 'Helvetica Neue', sans-serif;
+	font-family: Lato, 'Helvetica Neue', 'Calibri Light', 'Calibri', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 }
@@ -133,7 +133,6 @@ nav, .portfolio-image {
 	margin-left: 20px;
 	margin-right: 0;
 	font-size: 22px;
-	font-family: lato, sans-serif;
 	font-weight: 300;
 }
 
@@ -168,7 +167,6 @@ nav, .portfolio-image {
 }
 
 .portfolio-title {
-	font-family: lato, sans-serif;
 	font-weight: 300;
 	margin-bottom: 20px;
 }
